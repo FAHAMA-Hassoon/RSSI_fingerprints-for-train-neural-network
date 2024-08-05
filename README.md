@@ -1,1 +1,4 @@
 # RSSI_fingerprints-for-train-neural-network
+The proposed dataset was generated based on real datasets collected from the embedded system lab at Shahid Chamran University's engineering faculty. In the real dataset, we have already identified the fingerprints and test point positions in the lab, as illustrated in the figure, and collected real RSSI. However, we observe that the collected dataset does not have a recognized pattern that cannot train the neural network to estimate position accurately. We suggest generating synthetic fingerprints to train the neural network to estimate real test point positions. To adjust the hyperparameter of the neural network, we generate both synthetic fingerprints and test points. This dataset is attached.
+To use this file run main_ideal.m
+please sure to put all the file in the path
